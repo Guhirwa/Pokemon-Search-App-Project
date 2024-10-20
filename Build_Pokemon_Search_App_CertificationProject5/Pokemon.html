@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>This Module is about Pokémon Search App</h1>
+          <label>Search for Pokémon Name or ID: 
+            <input type="text" id="search-input" required/> 
+            <button id="search-button">Search</button>
+          </label>
+          <div>
+            <div>
+              <span id="pokemon-name"></span>
+              <span id="pokemon-id"></span>
+            </div>
+            <div>
+              <span id="weight"></span>
+              <span id="height"></span>
+            </div>
+            <div id="sprite-container"></div>
+            <div id="types"></div>
+          </div>
+          <div class="bottom-container">
+            <table>
+              <tr>
+                <th>Base</th>
+                <th>Stats</th>
+              </tr>
+              <tr>
+                <td>HP:</td>
+                <td id="hp"></td>
+              </tr>
+              <tr>
+                <td>Attack:</td>
+                <td id="attack"></td>
+              </tr>
+              <tr>
+                <td>Defense:</td>
+                <td id="defense"></td>
+              </tr>
+              <tr>
+                <td>Sp. Attack:</td>
+                <td id="special-attack"></td>
+              </tr>
+              <tr>
+                <td>Sp. Defense:</td>
+                <td id="special-defense"></td>
+              </tr>
+              <tr>
+                <td>Speed:</td>
+                <td id="speed"></td>
+              </tr>
+            </table>
+          </div>
+      <script src="./script.js"></script>
+    </main>
+  </body>
+</html>
